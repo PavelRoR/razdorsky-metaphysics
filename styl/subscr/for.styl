@@ -1,9 +1,29 @@
+#great_gradient
+    background-image: radial-gradient( 50% 50%, circle closest-side, rgb(53,53,53) 15%, rgb(42,41,41) 52%, rgb(15,15,15) 100%);
+    position relative
+    &:before
+        content: ''
+        display block
+        width 100%
+        position: absolute
+        top -1000px
+        left 0
+        right 0
+        height 1414px
+        background-image url(../img/divider_1.png)
+        background-repeat no-repeat
+        background-position: center
+        background-size: cover
+        z-index: 2
 #for
     padding 109px 0 69px
-    background-image url(../img/for_bg.jpg)
-    background-repeat no-repeat 
-    background-position: center
-    background-size: cover
+    // background-image url(../img/for_bg.jpg)
+    // background-repeat no-repeat 
+    // background-position: center
+    // background-size: cover
+    .container
+        position relative
+        z-index 9
 .for_img
     display block
     margin 0 auto 27px
