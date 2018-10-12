@@ -1,0 +1,137 @@
+@font-face {
+	font-family: 'AkrobatBlack';
+	src: url('../fonts/AkrobatBlack.eot');
+	src: url('../fonts/AkrobatBlack.eot') format('embedded-opentype'),
+		 url('../fonts/AkrobatBlack.woff2') format('woff2'),
+		 url('../fonts/AkrobatBlack.woff') format('woff'),
+		 url('../fonts/AkrobatBlack.ttf') format('truetype'),
+		 url('../fonts/AkrobatBlack.otf') format('truetype'),
+		 url('../fonts/AkrobatBlack.svg#AkrobatBlack') format('svg');
+}
+@font-face {
+	font-family: 'AkrobatBold';
+	src: url('../fonts/AkrobatBold.eot');
+	src: url('../fonts/AkrobatBold.eot') format('embedded-opentype'),
+		 url('../fonts/AkrobatBold.woff2') format('woff2'),
+		 url('../fonts/AkrobatBold.woff') format('woff'),
+		 url('../fonts/AkrobatBold.ttf') format('truetype'),
+		 url('../fonts/AkrobatBold.otf') format('truetype'),
+		 url('../fonts/AkrobatBold.svg#AkrobatBold') format('svg');
+}
+@font-face {
+	font-family: 'AkrobatRegular';
+	src: url('../fonts/AkrobatRegular.eot');
+	src: url('../fonts/AkrobatRegular.eot') format('embedded-opentype'),
+		 url('../fonts/AkrobatRegular.woff2') format('woff2'),
+		 url('../fonts/AkrobatRegular.woff') format('woff'),
+		 url('../fonts/AkrobatRegular.ttf') format('truetype'),
+		 url('../fonts/AkrobatRegular.otf') format('truetype'),
+		 url('../fonts/AkrobatRegular.svg#AkrobatRegular') format('svg');
+}
+@font-face {
+	font-family: 'OpenSansBold';
+	src: url('../fonts/OpenSansBold.eot');
+	src: url('../fonts/OpenSansBold.eot') format('embedded-opentype'),
+		 url('../fonts/OpenSansBold.woff2') format('woff2'),
+		 url('../fonts/OpenSansBold.woff') format('woff'),
+		 url('../fonts/OpenSansBold.ttf') format('truetype'),
+		 url('../fonts/OpenSansBold.svg#OpenSansBold') format('svg');
+}
+@font-face {
+	font-family: 'OpenSansItalic';
+	src: url('../fonts/OpenSansItalic.eot');
+	src: url('../fonts/OpenSansItalic.eot') format('embedded-opentype'),
+		 url('../fonts/OpenSansItalic.woff2') format('woff2'),
+		 url('../fonts/OpenSansItalic.woff') format('woff'),
+		 url('../fonts/OpenSansItalic.ttf') format('truetype'),
+		 url('../fonts/OpenSansItalic.svg#OpenSansItalic') format('svg');
+}
+@font-face {
+	font-family: 'OpenSansLight';
+	src: url('../fonts/OpenSansLight.eot');
+	src: url('../fonts/OpenSansLight.eot') format('embedded-opentype'),
+		 url('../fonts/OpenSansLight.woff2') format('woff2'),
+		 url('../fonts/OpenSansLight.woff') format('woff'),
+		 url('../fonts/OpenSansLight.ttf') format('truetype'),
+		 url('../fonts/OpenSansLight.svg#OpenSansLight') format('svg');
+}
+@font-face {
+	font-family: 'OpenSansRegular';
+	src: url('../fonts/OpenSansRegular.eot');
+	src: url('../fonts/OpenSansRegular.eot') format('embedded-opentype'),
+		 url('../fonts/OpenSansRegular.woff2') format('woff2'),
+		 url('../fonts/OpenSansRegular.woff') format('woff'),
+		 url('../fonts/OpenSansRegular.ttf') format('truetype'),
+		 url('../fonts/OpenSansRegular.svg#OpenSansRegular') format('svg');
+}
+@font-face {
+	font-family: 'OpenSansSemibold';
+	src: url('../fonts/OpenSansSemibold.eot');
+	src: url('../fonts/OpenSansSemibold.eot') format('embedded-opentype'),
+		 url('../fonts/OpenSansSemibold.woff2') format('woff2'),
+		 url('../fonts/OpenSansSemibold.woff') format('woff'),
+		 url('../fonts/OpenSansSemibold.ttf') format('truetype'),
+		 url('../fonts/OpenSansSemibold.svg#OpenSansSemibold') format('svg');
+}
+@font-face {
+	font-family: 'OpenSansSemiboldItalic';
+	src: url('../fonts/OpenSansSemiboldItalic.eot');
+	src: url('../fonts/OpenSansSemiboldItalic.eot') format('embedded-opentype'),
+		 url('../fonts/OpenSansSemiboldItalic.woff2') format('woff2'),
+		 url('../fonts/OpenSansSemiboldItalic.woff') format('woff'),
+		 url('../fonts/OpenSansSemiboldItalic.ttf') format('truetype'),
+		 url('../fonts/OpenSansSemiboldItalic.svg#OpenSansSemiboldItalic') format('svg');
+}
+
+*
+	margin 0
+	padding 0
+	outline none
+body
+	background-color: rgb(12,12,12)
+	font-size: 16px;
+	font-family: 'OpenSansLight',sans-serif
+h1,h2,h3,h4,h5,h6
+	font-weight: normal
+a
+	color: #fefefe
+	&:focus
+		outline: 0
+	&:hover
+		text-decoration none
+button
+	border none
+.video_wrapper
+	margin 0 auto
+	position relative
+	&:before
+		content ''
+		height 0
+		padding-top 56.25%
+		display block
+	&:after
+		content: ''
+		display block
+		position: absolute
+		top: 0
+		left 0
+		right 0
+		width: 100%
+		height 70px
+	img,
+	iframe
+		position absolute
+		width 100%
+		height 100%
+		display block
+		background-color #fff
+		border-radius 0
+		border: 0
+		top 0
+		left 0
+		right 0
+		bottom 0
+		cursor pointer
+
+@import 'bonus/main'
+@import 'bonus/footer'
