@@ -91,6 +91,7 @@ body
 	background-color: rgb(12,12,12)
 	font-size: 16px;
 	font-family: 'OpenSansLight',sans-serif
+	color #fff
 h1,h2,h3,h4,h5,h6
 	font-weight: normal
 a
@@ -132,9 +133,31 @@ button
 		right 0
 		bottom 0
 		cursor pointer
+.button
+	display block
+	width 100%
+	max-width 290px;
+	margin  20px auto
+	height: 50px;
+	line-height: 50px;
+	background-color: rgb(169, 12, 4);
+	box-shadow: 5px 5px 0 rgba(169, 12, 4, .2)
+	font-size: 18px;
+	font-family: "AkrobatBold", sans-serif
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	text-align: center
+	transition: all .3s ease
+	&:focus
+		color #fff
+		text-decoration: none
+	&:hover
+		box-shadow: 0 0 0 rgba(169, 12, 4, 1)
+		color #fff
 
 @import 'spof/main'
 @import 'spof/second'
 @import 'spof/third'
 @import 'spof/last'
 @import 'spof/footer'
+@import 'spof/medias'

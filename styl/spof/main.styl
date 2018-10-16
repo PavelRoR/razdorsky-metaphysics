@@ -1,0 +1,121 @@
+#main
+	width: 100%
+	background-color: #000
+	background-image url(../img/spof_main_bg.png)
+	background-repeat no-repeat
+	background-position center top
+	background-size: cover
+	overflow hidden
+	padding-bottom:  23px
+	position relative
+	&:before
+		content: '';
+		display: block;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		width: 100%;
+		z-index: 0;
+		background-image: url("../img/clouds_main.png");
+		background-repeat: no-repeat;
+		background-position: center top;
+		background-size: cover;
+		height: 291px;
+		margin: 0 auto;
+	.container
+		position relative
+#header
+	padding: 20px 0
+	overflow hidden
+	z-index: 9
+	position relative
+#logo
+	float: left
+	opacity .5
+	width 193px
+	height auto
+.contacts
+	float: right
+	text-align: right
+	line-height  12px
+	a
+		font-size: 10px
+		&:focus
+			text-decoration: none
+		.fa
+			color: #538ffe
+			font-size: 16px
+			margin: 0 15px 0  40px
+			line-height: 12px
+		.fa+span
+			line-height: 12px
+			font-size: 16px;
+			font-family: "OpenSansLight", sans-serif;
+			color: rgba(#fff, .6)
+			text-align: right;
+			&:hover
+				text-decoration underline
+.tel:first-child
+	.fa-phone
+		margin-left: 0
+#nic_main
+	position: absolute
+	bottom: -52px;
+	right: 23px;
+	z-index 1
+.pre
+	font-family: "OpenSansBold", sans-serif
+	color: rgb(224, 13, 2);
+	text-transform: uppercase;
+	letter-spacing: 1.3px;
+	text-align: center
+	font-size: 22px
+.main_title
+	font-size: 20px;
+	font-family: "OpenSansRegular",sans-serif
+	color: rgb(254, 254, 255);
+	line-height: 1.17;
+	text-shadow: 3.064px 2.571px 0px rgba(13, 10, 10, 0.41);
+	margin: 17px auto 7px
+	letter-spacing: 1.8px;
+	text-align: center
+	width 100%
+	max-width 850px
+.main_sub_title
+	text-align: center
+	font-family: "AkrobatBlack", sans-serif
+	font-size: 40px;
+	color: rgb(255, 255, 255);
+	line-height: 1.3;
+	margin-bottom: 20px
+.video_wrapper_main
+	iframe
+		z-index 99
+.only_for
+	text-align: center
+	margin: 40px auto 30px;
+	font-size: 34px;
+	font-family: "AkrobatBlack", sans-serif
+	color: #fff;
+	line-height: 1.611;
+	text-decoration: underline
+.price
+	text-align: center
+	font-size: 22px
+	font-family: "OpenSansBold", sans-serif
+	color: #fff
+	span
+		position relative
+		&:after
+			content ''
+			display: block
+			width: 70px;
+			height 3px;
+			background-color: red
+			position: absolute
+			margin 0 auto
+			top: 16px
+			left 0
+			right 0
+			transform: rotate(17deg)

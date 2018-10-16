@@ -25,8 +25,10 @@ html(lang="ru")
 		<!-- /Yandex.Metrika counter -->
 		include pug/spof/main
 		include pug/spof/second
-		include pug/spof/third
-		include pug/spof/last
+		#wrapper
+			include pug/spof/third
+			include pug/spof/last
+			img(src="../img/clouds_about.png", alt="Облака")#clouds
 		include pug/spof/footer
 		<!-- Begin LeadBack code -->
 		//script
