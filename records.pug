@@ -10,6 +10,7 @@ html(lang="ru")
 		link(rel="icon" type="image/x-icon" href="../favicon.ico")
 		link(rel="shortcut icon" type="image/x-icon" href="../favicon.png")
 		link(rel="stylesheet" href="../css/bootstrap.min.css")
+		link(rel="stylesheet" href="../css/flipclock.css")
 		link(rel="stylesheet" href="../css/recs_styles.css")
 		script 
 			| !function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://vk.com/js/api/openapi.js?158",t.onload=function(){VK.Retargeting.Init("VK-RTRG-11201-hHU9b"),VK.Retargeting.Hit()},document.head.appendChild(t)}();
@@ -27,6 +28,7 @@ html(lang="ru")
 		link(rel="stylesheet", href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css")
 		include pug/recs/second
 		include pug/recs/for
+		include pug/recs/scripts
 		<!-- Begin LeadBack code -->
 		//script
 			|	var _emv = _emv || [];_emv['campaign'] = '867c51ec0949a1cc34f60545'; (function() { var em = document.createElement('script');em.type = 'text/javascript';em.async = true;em.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'leadback.ru/js/leadback.js';var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(em, s);})();
